@@ -3,7 +3,7 @@
     string result = "";
     for (int i = 1; i <= N; i++)
     {
-        result += $"{Math.Pow(i, 2)} ";
+        result += $"{Math.Pow(i, 3)} ";
     }
     return result;
 }
